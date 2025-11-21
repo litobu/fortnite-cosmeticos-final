@@ -120,6 +120,7 @@ app.get('/api/fortnite/store', async (req,res)=>{
   }
 });
 
+
 const sampleItems = [
   { id: "1", name: "Axe of Dawn", price: 500, rarity: "Rare", image: "https://fortnite-api.com/images/cosmetics/br/v2/202d4718-cb29-4bba-b794-fc728d71b7b8/icon.png" },
   { id: "2", name: "Stealth Skin", price: 1200, rarity: "Epic", image: "https://fortnite-api.com/images/cosmetics/br/v2/8c32dd5d-57f9-4d1f-8e1e-4e1e4e1e4e1e/icon.png" },
